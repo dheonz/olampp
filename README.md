@@ -2,6 +2,7 @@
 how to use this script
 
 folow command for installasi olampp:
+
 open your terminal linux
 
 $ apt install wget
