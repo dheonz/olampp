@@ -5,6 +5,7 @@ folow command for installasi olampp:
 open your terminal linux
 
 $ apt install wget
+
 $ wget -qO- https://raw.githubusercontent.com/dheonz/olampp/master/setup.sh | sh
 
 wait into mysql install give you like password
