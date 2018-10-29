@@ -15,7 +15,6 @@ etc/init.d/mysql restart
 sudo apt-get install php5 php-pear php5-mysql -y
 sudo apt-get install php5-common libapache2-mod-php5 php5-cli -y
 sudo apt-get install php5-mysql php5-curl -y
-mysql_secure_installation
 sudo apt-get install phpmyadmin -y
 wget -qO- https://raw.github.com/lmbbox/lampp/master/application/bin/install.sh | sh
 apt-get clean
@@ -23,5 +22,4 @@ wget https://raw.githubusercontent.com/dheonz/script/master/ap && mv -f ap /bin/
 wget https://raw.githubusercontent.com/dheonz/olampp/master/000-default.conf && mv -f 000-default.conf /etc/apache2/sites-available/
 wget https://raw.githubusercontent.com/dheonz/olampp/master/alias.conf && mv -f alias.conf /etc/apache2/mods-available/
 mkdir -v /var/www/html/phpmyadmin && chmod 777 /var/www/html/phpmyadmin && cp -lr /usr/share/phpmyadmin /var/www/html/
-clear
 lamp
