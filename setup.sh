@@ -8,6 +8,7 @@ sudo apt-get install toilet -y
 sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install git -y
+sudo apt-get install php5 -y
 sudo apt-get install apache2 -y
 etc/init.d/apache2 restart
 sudo apt-get install mysql-server mysql-client -y
