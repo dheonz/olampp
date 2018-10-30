@@ -1,11 +1,10 @@
 #!/bin/bash
 clear
-apt-get install sudo
-sudo apt-get update
-sudo apt-get install curl
-sudo apt-get install perl
-sudo apt-get install toilet
-sudo apt-get install figlet
+apt-get install sudo -y
+sudo apt-get install curl -y
+sudo apt-get install perl -y
+sudo apt-get install toilet -y
+sudo apt-get install figlet -y
 sudo apt-get install lolcat -y
 sudo apt-get install git -y
 sudo apt-get install apache2 -y
