@@ -9,10 +9,8 @@ sudo apt-get install lolcat -y
 sudo apt-get install git -y
 sudo apt-get install apache2 -y
 etc/init.d/apache2 restart
-sudo apt-get install php5 -y
 sudo apt-get install mysql-server
 etc/init.d/mysql restart
-sudo apt-get install php5 php-pear php5-mysql
 sudo apt-get install php5-common libapache2-mod-php5 php5-cli
 sudo apt-get install php5-mysql php5-curl
 sudo apt-get install phpmyadmin
