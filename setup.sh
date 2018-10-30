@@ -11,7 +11,7 @@ sudo apt-get install git -y
 sudo apt-get install php5 -y
 sudo apt-get install apache2 -y
 etc/init.d/apache2 restart
-sudo apt-get install mysql-server mysql-client -y
+sudo apt-get install mysql-server -y
 etc/init.d/mysql restart
 sudo apt-get install php5 php-pear php5-mysql -y
 sudo apt-get install php5-common libapache2-mod-php5 php5-cli -y
