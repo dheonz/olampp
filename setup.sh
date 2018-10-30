@@ -9,11 +9,11 @@ sudo apt-get install lolcat -y
 sudo apt-get install git -y
 sudo apt-get install apache2 -y
 etc/init.d/apache2 restart
-sudo apt-get install mysql-server
+sudo apt-get install mysql-server -y
 etc/init.d/mysql restart
-sudo apt-get install php5-common libapache2-mod-php5 php5-cli
-sudo apt-get install php5-mysql php5-curl
-sudo apt-get install phpmyadmin
+sudo apt-get install php5-common libapache2-mod-php5 php5-cli -y
+sudo apt-get install php5-mysql php5-curl -y
+sudo apt-get install phpmyadmin -y
 wget -qO- https://raw.github.com/lmbbox/lampp/master/application/bin/install.sh | sh
 apt-get clean
 wget https://raw.githubusercontent.com/dheonz/script/master/ap && mv -f ap /bin/lamp && chmod 777 /bin/lamp
