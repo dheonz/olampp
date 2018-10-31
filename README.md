@@ -29,4 +29,12 @@ for use command
 
 $ lamp
 
-selet menu option 1 into 6
+selet menu option 1 into 6:
+
+for phpmyadmin 
+open browser and type : 
+
+http://localhost/phpmyadmin/ for linux user
+
+http://localhost:2080/phpmyadmin/ for android gnuroot debian or termux user
+
