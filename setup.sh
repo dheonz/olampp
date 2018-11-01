@@ -15,4 +15,5 @@ wget https://raw.githubusercontent.com/dheonz/script/master/ap && mv -f ap /bin/
 wget https://raw.githubusercontent.com/dheonz/olampp/master/000-default.conf && mv -f 000-default.conf /etc/apache2/sites-available/
 wget https://raw.githubusercontent.com/dheonz/olampp/master/alias.conf && mv -f alias.conf /etc/apache2/mods-available/
 mkdir -v /var/www/html/phpmyadmin && chmod 777 /var/www/html/phpmyadmin && cp -lr /usr/share/phpmyadmin /var/www/html/
+sudo a2enmod rewrite
 lamp
